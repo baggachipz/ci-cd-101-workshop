@@ -15,4 +15,9 @@ jobs:
 
     steps:
       - checkout
-      - run: echo "Hello"
+      - run: 
+        name: Install depenencies
+        command: yarn
+      - run:
+        name: Run Tests
+        command: yarn test
