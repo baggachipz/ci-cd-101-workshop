@@ -16,8 +16,8 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: Install depenencies
+        name: "Install depenencies"
         command: yarn
       - run:
-        name: Run Tests
+        name: "Run Tests"
         command: yarn test
